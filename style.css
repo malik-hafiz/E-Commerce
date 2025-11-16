@@ -1,0 +1,307 @@
+.sale{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px;
+}
+.sale h3 {
+    color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 50px 0px 50px;
+    padding-bottom: 30px;
+    
+    
+}
+.nav h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+    
+}
+.list a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon{
+    font-size: 30px;
+}
+.icon a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.main{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 500px;
+    margin-left: 50px;
+
+}
+.main h1 {
+    font-size: 120px;
+}
+.main button {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border:  white;
+    margin-top: 50px;
+}
+.main .b1 {
+    background-color: rgb(117, 88, 88);
+    color: white;
+    font-size: 30px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border:  white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.main button:hover{
+    background-color: black;
+    color: azure;
+}
+.main .b1:hover{
+    background-color: white;
+    color: black;
+} 
+.cd{
+   margin: 80px;
+   font-size: 80px;
+   font-weight: bold;
+   text-align: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart img {
+    margin: 0px 30px;
+    border-radius: 20px;
+}
+.cart figcaption {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cart1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart1 figcaption{
+    margin-left: 0px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cart1 img {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+span{
+    display:flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+span del {
+    color: rgb(161, 161, 161);
+}
+.about{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.about img {
+    border-radius: 20px;
+    margin-left: 200px;
+}
+.about b {
+    font-weight: bold;
+    font-size: 100px;
+}
+.about p {
+    font-size: 25px;
+    margin-left: 150px;
+    line-height: 2rem;
+    
+}
+.about1{
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    
+    
+}
+.about1 img {
+    border-radius: 20px;
+    margin-left: 350px;
+}
+.about1 b {
+    font-weight: bold;
+    font-size: 100px;
+}
+.about1 p {
+    font-size: 25px;
+    margin-left: 200px;
+    line-height: 2rem;
+    
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.warranty img{
+    width: 100px;
+}
+.warranty b {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.warranty p {
+    font-size: 20px;
+}
+.contact{
+    display: flex; 
+    margin: 50px auto;      
+}
+.contact img {
+    margin-left: 300px
+}
+.us{
+    margin-left: 200px;
+}
+.us h1 {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.us h2 {
+    margin-top: 50px;
+}
+.us input {
+    margin-top: 50px;
+    border: none;
+    font-size: 20px;
+}
+.us button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 20px 320px 20px 320px;
+    margin-top: 50px;
+}
+.us button:hover{
+    background-color: white;
+    color: black;
+    border: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+h4 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 4rem;
+
+}
+.socail{
+    font-size: 80px;
+    text-align: center;
+    gap: 20px;
+}
+.fc{
+    text-align: center;
+    font-size: 50px;
+}
+@media (max-width: 768px){
+  .icon{
+    display: block;
+  }
+
+  .list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    gap: 20px;
+    display: none;
+    border-top: 1px solid #ddd;
+  }
+
+  .icon:checked ~ .list{
+    display: flex;
+  }
+
+  .icon{
+    display: none; 
+  }
+
+  .nav{
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 768px){
+  .main h1{
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  button{
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .main{
+    left: 5%;
+  }
+}
+
+@media (max-width: 480px){
+  .main h1{
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  button{
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .b1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
